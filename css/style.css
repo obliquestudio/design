@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');
+
+
+@media (min-width: 813px) {
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: #212121;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: #212121;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0);
+  top: 0; /* required */
+  z-index: 10000;
+}
+
+#logo {
+    width: 55%;
+}
+
+#logo-footer {
+    width: 5%;
+    margin: 0;
+    margin-left: 47.5%;
+    margin-right: 47.5%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  margin-left: 5%;
+  color: #212121;
+  text-align: center;
+  padding: 1.75rem 1.75rem;
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: 'Playfair Display';
+  font-weight: 900;
+}
+
+
+slider {
+  display: block;
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  background-image: url(../img/0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+slider>* {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #F1f1f1;
+  animation: slide 40s infinite;
+
+}
+
+slide:nth-child(1) {
+  left: 0%;
+  animation-delay: -4s;
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+slide:nth-child(2) {
+  left: 100%;
+  animation-delay: 8s;
+  background-image: url(../img/2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+slide:nth-child(3) {
+  left: 100%;
+  animation-delay: 20s;
+  background-image: url(../img/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+slide:nth-child(4) {
+  left: 100%;
+  animation-delay: 32s;
+  background-image: url(../img/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@keyframes slide {
+  0% {
+    left: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+
+  5% {
+    left: 0%;
+  }
+
+  25% {
+    left: 0%;
+  }
+
+  30% {
+    left: -100%;
+    width: 100%;
+    opacity: 1;
+  }
+
+  30.0001% {
+    left: -100%;
+    width: 0%;
+    opacity: 0;
+  }
+
+  100% {
+    left: 100%;
+    width: 100%;
+    opacity: 0;
+  }
+}
+
+
+.first {
+  margin-top: 40%;
+  padding: 20rem 10rem;
+  height: 5vh;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Playfair Display';
+  font-weight: 900;
+  clear: both;
+}
+
+#meh {
+  font-family: 'Playfair Display';
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display';
+  font-weight: 900;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Playfair Display';
+  font-weight: 900;
+}
+
+.service {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 2%;
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
+.srv-1 {
+    margin-left: 10%;
+    padding: 5%;
+}
+
+hr {
+width: 20%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5%;
+height: 5px;
+background-color: #BFDAC8;
+border: none;
+}
+
+.fondo {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/6.jpg);
+  background-size: cover;
+  background-position: left;
+  margin-bottom: 5%;
+}
+
+.column {
+  width: 20%;
+  height: 50vh;
+  margin: 2.5%;
+  float: left;
+}
+
+.column-2 {
+  width: 20%;
+  height: 30vh;
+  margin: 0 auto;
+  float: left;
+  padding: 4em 0;
+  margin-left: 10%;
+}
+
+.column-p {
+  font-size: 1em;
+  padding: 5%;
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
+
+.close {
+  margin-top: -20%;
+  position: relative;
+}
+
+footer {
+  margin-top: 5%;
+  height: 10vh;
+
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 812px) {
+
+  body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: #212121;
+  }
+
+
+  ::-webkit-scrollbar {
+      display: none;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: #212121;
+  }
+
+
+  #logo {
+      width: 35%;
+  }
+
+  #logo-footer {
+      width: 15%;
+      margin: 0;
+      margin-left: 42.5%;
+      margin-right: 42.5%;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgba(0,0,0,0);
+    top: 0; /* required */
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #212121;
+
+    padding: 2rem 3rem;
+
+  }
+
+
+  slider {
+    display: block;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-image: url(../img/0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+  .first {
+    margin-top: 50%;
+    padding: 10rem 5rem;
+    height: 5vh;
+  }
+
+
+
+  h1 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+  }
+
+  #meh {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+  }
+
+  #coffe {
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    font-size: 1.75em;
+    font-weight: 400;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+  }
+
+  .service {
+    margin: 0 auto;
+    font-size: 0.85em;
+    text-align: center;
+    padding: 5%;
+    line-height: 1.5em;
+    font-weight: lighter;
+    overflow: auto;
+  }
+
+  .srv-1 {
+      margin-left: 10%;
+      padding: 5%;
+  }
+
+  hr {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15%;
+  height: 5px;
+  background-color: #BFDAC8;
+  border: none;
+  }
+
+  .fondo {
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 5%;
+  }
+
+  .column {
+    margin: 0 auto;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .column-2 {
+    margin: 0 auto;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .column-p {
+    margin: 0 auto;
+    font-size: 0.85em;
+    text-align: center;
+    padding: 5%;
+    line-height: 1.5em;
+    font-weight: lighter;
+    overflow: auto;
+  }
+
+
+  .close {
+    margin-top: 10%;
+    position: relative;
+  }
+
+  footer {
+    margin-top: 5%;
+    height: 10vh;
+
+  }
+}
